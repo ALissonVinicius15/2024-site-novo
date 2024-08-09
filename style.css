@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --preto: #0a0908ff;
+    --azul-escuro: #22333bff;
+    --bege-claro: #eae0d5ff;
+    --bege-escuro: #c6ac8fff;
+    --marrom: #5e503fff;
+}
