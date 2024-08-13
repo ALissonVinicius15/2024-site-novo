@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,4 +11,13 @@
     --bege-claro: #eae0d5ff;
     --bege-escuro: #c6ac8fff;
     --marrom: #5e503fff;
+    --fonte-titulo: "New Amsterdam", sans-serif;
+    --fonte-texto: "Roboto Mono", monospace;
 }
+
+body{
+    background-color: var(--azil);
+    font-family: var(--fonte-texto);
+    font-size: 16px;
+}
+
