@@ -43,6 +43,15 @@ cabecalho-img{
 .cabecalho-nav__link:hover{
    color: var(--preto);
    font-size: 46px;
-   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-   text-shadow: 2px 2px (var(preto));
+   transition: 0.5s
+}
+
+.principal-capa{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 24px;
+   background-image: url(img/fundo.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
