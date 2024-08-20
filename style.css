@@ -48,10 +48,24 @@ cabecalho-img{
 
 .principal-capa{
    display: flex;
-   justify-content: center;
+   justify-content: center; 
    align-items: center;
    gap: 24px;
    background-image: url(img/fundo.jpg);
    background-repeat: no-repeat;
    background-size: cover;
+}
+
+.principal-capa__conteudo{
+   display: flex;
+   flex-direction: colum;
+   gap: 12px;
+
+}
+
+.principal-capa__titulo{
+   font-family: var(--fonte-titulo);
+   font-size: 32px;
+   color: var(--preto);
+   margin-bottom: 12px;
 }
