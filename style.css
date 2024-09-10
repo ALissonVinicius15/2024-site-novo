@@ -71,3 +71,18 @@ body{
    color: var(--preto);
    margin-bottom: 12px;
 }
+
+.principal-capa__botao{
+   background-color: var(--azul-escuro);
+   border-radius: 5px;
+   padding: 1em;
+   margin-top: 2em;
+   color: var(--bege-claro);
+   text-decoration: none;
+}
+
+.botao__secundario{
+   background-color: var(--azul-escuro);
+   border: 2px solid var(--azul-escuro);
+   color: var(--bege-claro);
+}
