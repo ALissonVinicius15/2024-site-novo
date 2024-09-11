@@ -86,3 +86,17 @@ body{
    border: 2px solid var(--azul-escuro);
    color: var(--bege-claro);
 }
+
+.propaganda{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin: 0 5em;
+}
+
+.propaganda__img{
+   margin-left: 10%;
+   width: 77%;
+}
